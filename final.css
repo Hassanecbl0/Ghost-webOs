@@ -15,7 +15,7 @@
     --accent-terminal: #1b2420;
     --accent-terminal-2: #263229;
 
-    /* App-window ("surface") theming — used by Explorer, Start Menu, Calculator,
+    /* Thèmes des applications —utilisées par Explorer, Start Menu, Calculator,
        Settings and the generic app-window. Overridden under .dark-theme below. */
     --surface-bg: rgba(255,255,255,0.72);
     --surface-bg-strong: rgba(255,255,255,0.94);
@@ -76,11 +76,8 @@
     outline-offset: 2px;
     border-radius: 6px;
   }
-
-  /* ===================== BROWSER CHROME ===================== */
   
-
-  /* ===================== DESKTOP VIEWPORT ===================== */
+  /* == Bureau == */
   .viewport{
     flex:1;
     width:100%;
@@ -120,7 +117,7 @@
     50%{ opacity:1; transform: scale(1.08); }
   }
 
-  /* ===================== NOTIFICATIONS PANEL ===================== */
+  /* === Barre de notifications ===== */
   .notif-panel{
     position:absolute;
     top:22px;
@@ -193,7 +190,7 @@
   }
   @keyframes spin{ to{ transform: rotate(180deg); } }
 
-  /* ===================== DESKTOP ICONS ===================== */
+  /* ==== Icones des app du bureau ====== */
   .desktop-icons{
     position:absolute;
     top:150px;
@@ -307,7 +304,7 @@
     white-space:nowrap;
   }
 
-  /* ===================== SYSTEM TRAY ===================== */
+  /* ===================== systeme ===================== */
   .system-tray{
     position:absolute;
     bottom:24px;
@@ -417,7 +414,7 @@
     margin-top:10px;
   }
 
-  /* ===================== FILE EXPLORER WINDOW ===================== */
+  /* === Fenetre explorateur de fichiers ======== */
   .explorer-window{
     position:absolute;
     top:80px;
@@ -755,7 +752,7 @@
     pointer-events:auto;
   }
 
-  /* ===================== START MENU ===================== */
+  /* ===== Menu démarer ====== */
   .start-menu{
     position:absolute;
     top:16px;
