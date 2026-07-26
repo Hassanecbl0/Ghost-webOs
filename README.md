@@ -29,7 +29,7 @@ index.html  →  welcome.html  →  login.html  →  Bureau.html
 
 > `Bureau.html` peut aussi être ouvert directement dans le navigateur pour tester le bureau GhostOS de manière isolée, sans repasser par le parcours de connexion.
 ## Accès
--**Le mot de passe pour accéder au sysème est : 123456
+-**Le mot de passe pour accéder au sysème est : 123456**-
 ## Fonctionnalités du bureau
 
 - **Bureau & Dock** — icônes fonctionnelles, horloge et batterie en temps réel, notifications.
