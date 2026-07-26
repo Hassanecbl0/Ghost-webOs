@@ -5,7 +5,7 @@ GhostOS est un environnement de bureau simulé, entièrement conçu en HTML, CSS
 ## Parcours du site
 
 ```
-boot.html  →  welcome.html  →  login.html  →  Bureau.html
+index.html  →  welcome.html  →  login.html  →  Bureau.html
 (démarrage)   (bienvenue)      (connexion)     (bureau GhostOS)
 ```
 
@@ -14,13 +14,13 @@ boot.html  →  welcome.html  →  login.html  →  Bureau.html
 ## Structure du projet
 
 ```
-├── boot.html       → écran de démarrage
+├── index.html       → écran de démarrage
 ├── login.html       → page de connexion
 ├── welcome.html     → page de bienvenue / accueil
 ├── Acceuil.css       → styles de la page d'accueil
 ├── Welcome.css       → styles de la page de bienvenue
 ├── Ghost (1).js      → script de redirection après connexion
-├── Spider.jpg        → visuel utilisé sur le parcours d'accueil
+├── Spider.jpg        → visuel utilisé comme photo de profil
 ├── Bureau.html       → point d'entrée du bureau GhostOS
 ├── Bureau.css        → tout le style du bureau (glassmorphisme, thèmes clair/sombre, animations)
 ├── Bureau.js         → toute la logique du bureau (fenêtres, navigation, calculs, thèmes…)
@@ -28,7 +28,8 @@ boot.html  →  welcome.html  →  login.html  →  Bureau.html
 ```
 
 > `Bureau.html` peut aussi être ouvert directement dans le navigateur pour tester le bureau GhostOS de manière isolée, sans repasser par le parcours de connexion.
-
+## Accès
+-**Le mot de passe pour accéder au sysème est : 123456
 ## Fonctionnalités du bureau
 
 - **Bureau & Dock** — icônes fonctionnelles, horloge et batterie en temps réel, notifications.
