@@ -1025,7 +1025,7 @@
           '<h4>System Mode</h4>' +
           '<button class="settings-toggle' + (settingsState.systemModeAuto ? ' on' : '') + '" id="stSystemModeToggle" aria-label="Suivre le thème système"></button>' +
         '</div>' +
-        '<p class="desc">Select light/dark mode, or let NexusOS follow your system preference.</p>' +
+        '<p class="desc">Select light/dark mode, or let GhostOS follow your system preference.</p>' +
         '<div class="settings-mode-cards" id="stModeCards" style="' + (settingsState.systemModeAuto ? 'opacity:0.5;pointer-events:none;' : '') + '">' +
           '<button class="settings-mode-card' + (settingsState.theme === 'light' ? ' active' : '') + '" data-mode="light">' +
             '<div class="settings-mode-preview light"><span></span></div><div class="label">Light</div>' +
