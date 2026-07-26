@@ -76,6 +76,6 @@ if (isBootPage) {
     }
 } else if (isWelcomePage) {
     setTimeout(() => {
-        window.location.replace("final.html");
+        window.location.replace("Bureau.html");
     }, 2000);
 }
