@@ -1,5 +1,5 @@
 const currentPath = window.location.pathname.toLowerCase();
-const isBootPage = currentPath.includes("boot.html");
+const isBootPage = currentPath.includes("index.html");
 const isLoginPage = currentPath.includes("login.html");
 const isWelcomePage = currentPath.includes("welcome.html");
 
